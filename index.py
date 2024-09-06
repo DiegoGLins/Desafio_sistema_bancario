@@ -17,9 +17,12 @@ def exibir_extrato():
         print("Não foram realizadas movimentações.")
     else:
         print("\n============== Histórico de transações ==============")
+        print()
         print(f"Limite diário de saque: {LIMITE_SAQUES}")
         print(f"Limite diário para saque de: R$ {limite:.2f}")
+        print()
         print("======================== ### ========================")
+        print()
 
         for deposito in depositos:
             print(f"Depósito : -----------------------  + R$ {deposito:.2f}")
@@ -27,6 +30,7 @@ def exibir_extrato():
             print(f"Saque : --------------------------  - R$ {saque:.2f}")
 
     print(f"Saldo em conta :                      R$ {saldo:.2f}")
+    print()
     print("======================= ### =========================")
 
 while True:
