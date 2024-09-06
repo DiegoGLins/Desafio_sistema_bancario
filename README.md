@@ -1,0 +1,1 @@
+Este repositório consiste num desafio de código do curso de Engenharia de Dados com Python pela escola DIO, onde o objetivo é construir um sistema bancário simples, com as operações básicas de deposito, saque e extrato
