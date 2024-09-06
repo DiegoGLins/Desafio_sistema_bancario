@@ -1,8 +1,8 @@
 menu = """
-[d] Depositar
-[s] Sacar
-[e] Extrato
-[q] Sair
+[D] Depositar
+[S] Sacar
+[E] Extrato
+[Q] Sair
 """
 
 saldo = 0
